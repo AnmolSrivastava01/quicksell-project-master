@@ -1,0 +1,46 @@
+.cardContainer{
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    border-radius: 0.5rem; 
+    font-size: 0.8rem;
+    line-height: 1.25rem; 
+    background-color: #ffffff; 
+    border-width: 1px;
+    border-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.cardHeading{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.cardTitle{
+    display: flex; 
+    padding-top: 5px;
+    flex-direction: row;
+    gap: 1rem; 
+    justify-content: start;
+    align-items: center; 
+}
+
+.cardTags{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: start;
+    align-items: center; 
+    gap: 1rem;
+
+}
+
+.showStatus{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: silver;
+    border-radius: 50%;
+}
